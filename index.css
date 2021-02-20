@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+header {
+    border: 1px solid red;
+    background: grey;
+    height: 100px;
+    text-align: center;
+}
+main {
+    border: 1px solid red;
+    background: white;
+    height: calc(100vh - 180px);
+    display: flex;
+}
+.left{
+    background: yellow;
+    border: 1px red;
+    width: 200px;
+    text-align: center;
+}
+.right {
+    background: maroon;
+    border: 1px red;
+    width: calc(100% - 200px);
+    text-align: center;
+}
+footer {
+    border: 1px solid red;
+    background: grey;
+    height: 80px;
+    text-align: center;
+}
